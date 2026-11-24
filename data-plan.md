@@ -1,7 +1,7 @@
 # Data plan — AirDraw: AI Gesture-Controlled Computer
 
 **Team:** Team 6
-Asikul Haque Rafsan, zohab
+Asikul Haque Rafsan, Zohaib Salman
 
 ## Sensor
 
