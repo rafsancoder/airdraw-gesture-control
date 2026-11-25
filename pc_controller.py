@@ -22,16 +22,16 @@ while True:
 
     print(f"Detected: {gesture}")
     if gesture == "swipe_right":
-        send_shift_key("n")              # Next video in playlist/autoplay queue
+        send_shift_key("n")                        # Next video in playlist/queue
     elif gesture == "swipe_left":
-        send_shift_key("p")              # Previous video in player history
+        send_shift_key("p")                        # Previous video in player history
     elif gesture == "seek_fwd":
-        pyautogui.press("l")             # Forward 10s
+        pyautogui.press("l")                       # Forward 10s
     elif gesture == "seek_back":
-        pyautogui.press("j")             # Rewind 10s
+        pyautogui.press("j")                       # Rewind 10s
     elif gesture == "restart":
-        pyautogui.press("0")             # Restart video from 0:00
+        pyautogui.press("0")                       # Restart video from 0:00
     elif gesture == "vol_up":
-        pyautogui.press("volumeup", presses=3)    # Global Windows volume up (+6%)
+        pyautogui.press("volumeup", presses=3)     # Global Windows volume up
     elif gesture == "vol_down":
-        pyautogui.press("volumedown", presses=3)  # Global Windows volume down (-6%)
+        pyautogui.press("volumedown", presses=3)   # Global Windows volume down
